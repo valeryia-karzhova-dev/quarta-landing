@@ -24,4 +24,4 @@ npm run dev
 - Контакты (телефон, Telegram, Instagram) вымышленные, замените в `app/page.tsx` и `components/LeadForm.tsx`.
 - Городские номера не принимаются.
 - Для превью ссылок временно используется `public/hero.jpg`; лучше сделать отдельную картинку 1200×630.
-- Фото `hero.jpg` и `footer.jpg` предоставлены заказчиком.
+- Фото в `public/` (hero, footer, fresh-coffee, barista) предоставлены заказчиком. Иконка сайта: `app/icon.svg`.
