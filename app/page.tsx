@@ -37,8 +37,12 @@ export default function Home() {
  <div><h3>Пятница</h3><p>Развозим по Минску. От 50 BYN доставка бесплатно.</p></div>
  <div><h3>1–3 день</h3><p>Самый вкусный момент.</p></div></div></div></section>
 
-<section><div className="w two"><div className="box"><h3>Доставка</h3><p>По Минску, по пятницам. Бесплатно от 50 BYN, при меньшей сумме стоимость назовёт менеджер.</p></div>
- <div className="box"><h3>Самовывоз</h3><p>Минск, ул. Короля, 9.<br />Пн–пт 8:00–20:00, сб–вс 10:00–18:00.<br /><a href="https://yandex.by/maps/?text=Минск, ул. Короля, 9" rel="noopener">Открыть на карте</a></p></div></div></section>
+<section><div className="w">
+  <h2>Варианты доставки</h2>
+  <div className="split">
+  <div className='sub'><h3>Доставка</h3><br /><p>По Минску, по пятницам. <br /> Бесплатно от 50 BYN, при меньшей сумме стоимость назовёт менеджер.</p></div>
+ <div className='sub'><h3>Самовывоз</h3><br /><p>Минск, ул. Короля, 9.<br />Пн–пт 8:00–20:00, сб–вс 10:00–18:00.<br /><a href="https://yandex.by/maps/?text=Минск, ул. Короля, 9" rel="noopener">Открыть на карте</a></p></div></div>
+ </div></section>
 
 <section id="faq"><div className="w"><h2>Частые вопросы</h2>
  <details><summary>Какой сорт взять?</summary><p>Для эспрессо подойдёт Бразилия. Эфиопия и Колумбия хороши в воронке и других фильтрах. Напишите в комментарии, как вы завариваете, и мы подскажем.</p></details>
